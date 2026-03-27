@@ -1,0 +1,10 @@
+langchain
+langchain_community
+langchain-core
+httpx
+fastapi
+langchain_text_splitters 
+sentence-transformers
+uvicorn
+python-multipart
+langchain_huggingface 

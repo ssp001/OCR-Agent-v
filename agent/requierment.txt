@@ -1,0 +1,9 @@
+langchain_core
+langchain-community
+langchain-H
+langchian
+langgraph
+fastapi
+httpx
+uvicorn
+git-filter-repo
