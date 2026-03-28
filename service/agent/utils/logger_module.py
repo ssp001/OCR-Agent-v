@@ -1,7 +1,7 @@
 import logging
 import sys
 
-logger = logging.getLogger()
+logger = logging.getLogger(__name__)
 
 system_handeler = logging.StreamHandler(sys.stdout)
 file_handeler = logging.FileHandler("app.log")

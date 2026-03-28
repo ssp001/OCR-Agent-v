@@ -1,0 +1,5 @@
+minio
+httpx
+fastapi
+dotenv
+uvicorn
