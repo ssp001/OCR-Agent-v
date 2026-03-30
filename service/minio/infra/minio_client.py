@@ -37,7 +37,7 @@ class MinioClient(MinioCore):
 
     def post_data(self, docs: Any, filename: str) -> Any:
         try:
-            self.client.put_object(
+            self.client.fput_object(
                 bucket_name="source-files/",
                 # The path and filename in MinIO
                 object_name=f"folder/{filename}",

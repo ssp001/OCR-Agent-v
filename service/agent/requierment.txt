@@ -1,6 +1,6 @@
 langchain_core
 langchain-community
-langchain-H
+langchain
 langchian
 langgraph
 fastapi

@@ -1,5 +1,6 @@
 minio
 httpx
-fastapi
+fastapi[standard]
 dotenv
 uvicorn
+confluent_kafka

@@ -6,9 +6,9 @@ class VectorStoreService:
     def __init__(self, store: VectorStoreCore):
         self.store = store
 
-    def store_data(self, embedding, text: str):
+    def store_and_search(self, embedding, text: str, query: str):
         try:
-            respones = self.store.store_the_chunks(text)
+            respones = self.store.store_and_search(text, embedding, query)
             logger.info("your data is stored sucessfuly")
             return respones
         except Exception as error:
